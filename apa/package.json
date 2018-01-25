@@ -1,0 +1,17 @@
+{
+  "name": "apa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "webpack js/main.js dist/bundle_main.js",
+    "graf" :"webpack js/graf.js dist/bundle_graf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {},
+  "description": ""
+}
